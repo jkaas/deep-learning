@@ -27,4 +27,3 @@ with tf.Session() as sess:
             sess.run(train_op, feed_dict={X: x, Y: y})
 
     print(sess.run(w)) 
-    print()
